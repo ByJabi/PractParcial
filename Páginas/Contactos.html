@@ -6,8 +6,89 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Servicios</title>
 </head>
-<body>
-    <h1>Contactos</h1><br><br>
-    <h2>Proximamente</h2>
+<body class="container">
+    <div class="color">
+        <header>
+            <a href="../index.html">
+                    <img src="../Img/boton_inicio.png" alt="imagen botón inicio" title="Ir a inicio" width="30">
+            </a>
+            <a href="../Páginas/Servicios.html">
+            <img src="../Img/boton_servicios.png" alt="imagen botón servicios" title="Ir a servicios" width="30">
+            </a>
+            <a href="#">
+                <img src="../Img/boton_contacto.png" alt="imagen botón contactos" title="Ir a contactos" width="30">
+            </a>
+        </header>
+        <main class="main_contacto">
+            <h1>Cementos Argos.</h1>
+            <h2>¿Cuéntanos quién eres?</h2>
+            <p>
+                En Cementos Argos, valoramos la comunicación con nuestros clientes y estamos aquí para ayudarte en todo lo que necesites. Ya sea que tengas preguntas sobre nuestros productos, servicios o cualquier otra consulta, nuestro equipo de atención al cliente está listo para asistirte.
+                <br><br>
+                Por favor, completa el siguiente formulario con tus datos y el motivo de tu contacto. Nos comprometemos a responderte a la brevedad posible.
+            </p>
+
+            <form class="form" action="#" method="post">
+                <label for="">Tipo de documento </label><br>
+                <select name="tipo_documento" id="tipo_documento">
+                    <option value="">RC</option>
+                    <option value="">TI</option>
+                    <option value="">CC</option>
+                    <option value="">Pasaporte</option>
+                    <option value="">Cédula de extranjería</option>
+                    <option value="">Otro</option>
+                </select><br>
+                <label for="cc">CC:</label><br>
+                <input type="number" placeholder="Número de cédula" required>
+                <br>
+                <label for="nombres">Nombres:</label><br>
+                <input type="text" placeholder="Nombres" required>
+                <br>
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text" placeholder="Apellidos" required>
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" placeholder="Correo electrónico" required>
+                <br>
+                <label for="usuario">Usuario:</label><br>
+                <input type="text" placeholder="Usuario" required>
+                <br>
+                <label for="password">Password:</label><br>
+                <input type="password" placeholder="Contraseña" required>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </main>
+        <section class="info">
+            <h2>Contáctanos</h2>
+            <p>
+                Si deseas más información sobre nuestros productos y servicios, no dudes en contactarnos a través de los siguientes medios:
+                <br><br>
+                Teléfono: +57 1 234 5678
+                <br>
+                Correo electrónico: <a href="mailto:contacto@cementosargos.com">contacto@cementosargos.com</a>
+        </section>
+        <footer>
+            <!-- Pie de pagina -->
+             <p style="text-align: center;"> Página realizada para fines académicos &copy;2025 Mayra Toro - Javier Beleño </p>
+             <p style="text-align: center;">
+                <!-- boton instagram con link a instagram -->
+                 
+                <a href="https://www.instagram.com/cementos_argos/" target="_blank">
+                   <img src="../Img/boton_instagram.png" alt="imagen botón instagram" title="Ir a instagram" width="40px">
+               </a>
+               <a href="https://www.facebook.com/cementosargos/?locale=es_LA" target="_blank">
+                   <img src="../Img/boton_facebook.png" alt="imagen botón facebook" title="Ir a facebook" width="40px">
+               </a>
+               <a href="https://www.linkedin.com/company/cementos-argos/" target="_blank">
+                   <img src="../Img/boton_LinkedIn.png" alt="imagen botón LinkedIn" title="Ir a LinkedIn" width="40px">
+               </a>
+             </p>
+             
+        </footer>
+    </div>
+    
+
 </body>
 </html>
